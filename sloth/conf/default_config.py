@@ -86,8 +86,8 @@ HOTKEYS = (
                    lambda lt: lt.gotoNext()
                   ],                                         'Mark image as labeled/confirmed and go to next'),
     ('Backspace', lambda lt: lt.gotoPrevious(),              'Previous image/frame'),
-    ('PgDown',    lambda lt: lt.gotoNext(),                  'Next image/frame'),
-    ('PgUp',      lambda lt: lt.gotoPrevious(),              'Previous image/frame'),
+    ('d',         lambda lt: lt.gotoNext(),                  'Next image/frame'),	##PgUp
+    ('a',         lambda lt: lt.gotoPrevious(),              'Previous image/frame'), ##PgDown
     ('Tab',       lambda lt: lt.selectNextAnnotation(),      'Select next annotation'),
     ('Shift+Tab', lambda lt: lt.selectPreviousAnnotation(),  'Select previous annotation'),
     ('Ctrl+f',    lambda lt: lt.view().fitInView(),          'Fit current image/frame into window'),
