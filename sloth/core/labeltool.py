@@ -279,6 +279,10 @@ class LabelTool(QObject):
 
     def model(self):
         return self._model
+        
+    def copyAnnotations(self):
+        c = CopyAnnotations(self)
+        c.copy()        
 
     def gotoIndex(self, idx):
         if self._model is None:
