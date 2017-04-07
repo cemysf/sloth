@@ -70,6 +70,15 @@ LABELS = (
         'hotkey':   'o',
         'text':     'Polygon',
     },
+    {
+    'attributes': {
+        'class':    'rect_id',
+    },
+    'inserter': 'sloth.items.RectItemInserter',
+    'item':     'sloth.items.IDRectItem',
+    'hotkey':   'e',
+    'text':     'ID_Rect',
+    },
 )
 
 # HOTKEYS
