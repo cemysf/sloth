@@ -73,6 +73,7 @@ LABELS = (
     {
     'attributes': {
         'class':    'rect_id',
+        'type':     'rect_type',
     },
     'inserter': 'sloth.items.RectItemInserter',
     'item':     'sloth.items.IDRectItem',
